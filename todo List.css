@@ -1,0 +1,35 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(222, 135, 209);
+}
+.container{
+    padding:20px;
+    border:1px solid #141703;
+    width:40%;
+    margin:auto;
+}
+.container .input{
+    width:87%;
+    height:20px;
+}
+.container .btn{
+    width:50px;
+    height:25px;
+}
+.container ul{
+    list-style-type: none;
+    padding:0px;
+}
+.container li{
+    color:rgb(7, 6, 8);
+}
+.container li a{
+    float:right;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+}
+.container #error{
+    color:red;
+    font-size:14px;
+}
